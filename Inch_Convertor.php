@@ -35,7 +35,7 @@
                     else if($unit==1) $str="cm";
                     else if($unit=0.01) $str="m";
                     $result=$nr*2.54*$unit;
-                    printf("\n\n %.2f inches equals %.2f %s",$nr,$result,$str);
+                    printf("\n\n %.2f inches = %.2f %s",$nr,$result,$str);
                 }
             ?>
             <br><br>
