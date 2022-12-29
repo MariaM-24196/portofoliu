@@ -10,7 +10,9 @@
         <h3>Simple Calculator</h3>
         <form method=post action="Calc.php">
             <input type="text" name="t1" value="
-                <?php $t1=@$_POST["t1"]; echo $t1 ?>"> 
+                <?php 
+                    $t1=@$_POST["t1"]; 
+                    echo $t1 ?>"> 
             <input type="text" size=1 maxlength=1 value="
                 <?php
                     $op=@$_POST["op"];
@@ -20,7 +22,9 @@
                     if($op=="op4") echo "/";
                 ?>" disabled>
             <input type="text" name="t2" value="
-                <?php $t2=@$_POST["t2"]; echo $t2 ?> ">
+                <?php 
+                    $t2=@$_POST["t2"]; 
+                    echo $t2 ?> ">
             <input type="submit" value=" = ">
             <input type="text" name=rezultat value="
                 <?php
@@ -44,7 +48,6 @@
             <input type="radio" name="op" value="op3"> *
             <br>
             <input type="radio" name="op" value="op4"> /
-
         </form>
     </body>
 </html>
