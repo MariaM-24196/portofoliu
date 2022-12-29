@@ -1,5 +1,3 @@
-//Simple Calculator using HTML and PHP code
-
 <html>
     <head>
         <title>
